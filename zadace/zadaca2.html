@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Zadaća 2 - HTML stranica o seriji Emily in Paris">
+    <meta name="author"content="Ime i Prezime">
+    <title>Zadaća 2 - Emily in Pari</title>
+</head>
+<body>
+    
+    <h1>Emily in Paris - Omiljena serija</h1>
+    <p>Emily in Paris je popularna romantična komedija koja prati Amerikanku Emily dok se seli u Pariz i počinje raditi 
+        u francuskoj marketinškoj agenciji. Serija je poznata po modi, humoru i predivnim kadrovima Pariza.
+</p>
+   <h2>Glavne uloge - Tablica</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th colspan="2">Glavni glumci u seriji</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Emily Cooper</td>
+            <td>Lily Collins</td>
+        </tr>
+        <tr>
+            <td>Glavna glumica</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Mindy Chen</td>
+            <td>Ashley Park</td>
+        </tr>
+        <tr>
+            <td>Emilyna najbolja prijateljica</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Gabriel</td>
+            <td>Lucas Bravo</td>
+        </tr>
+        <tr>
+            <td>Kuhar i Emilyin dečko</td>
+        </tr>
+
+    </table>
+
+    <h2>Obrazac za prijavu</h2>
+
+    <form>
+        <label>Ime:
+            <input type="text" name="ime" required>
+        </label>
+        <br><br>
+
+        <label>Prezime:
+            <input type="text" name="prezime" required>
+        </label>
+        <br><br>
+
+        <label>Lozinka:
+            <input type="password" name="lozinka" required>
+        </label>
+        <br><br>
+
+        <label>Koji lik vam je najdraži?
+            <select name="lik">
+                <option value="emily">Emily Cooper</option>
+                <option value="mindy">Mindy Chen</option>
+                <option value="gabriel">Gabriel</option>
+                <option value="sylvie">Sylvie</option>
+            </select>
+        </label>
+        <br><br>
+
+        <label>
+            <input type="checkbox" required>
+            Prihvaćam uvjete korištenja
+        </label>
+        <br><br>
+
+        <button type="submit">Pošalji</button>
+        <button type="reset">Resetiraj</button>
+    </form>
+
+    <h2>Audio isječak</h2>
+    <audio controls>
+        <source src="audio_video_zadaca/test-audio.ogg" type="audio/mpeg">   
+    </audio>
+
+    <h2>Video isječak</h2>
+    <video width="400" controls>
+    <source src="audio_video_zadaca/puppy.mp4" type="video/mp4"
+    </video>
+
+</body>
+</html>
+    </table>
+</body>
+</html>
